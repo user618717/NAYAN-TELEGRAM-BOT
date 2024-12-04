@@ -8,7 +8,7 @@
 
 ---
 <img alt="version" src="https://img.shields.io/github/package-json/v/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT?label=github&style=flat-square"></img>
-[![GitHub contributors](https://img.shields.io/github/contributors/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT)](https://github.com/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT/graphs/contributors) [![GitHub issues](https://img.shields.io/github/issues/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT)](https://github.com/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT)](https://github.com/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT/graphs/contributors) [![GitHub issues](https://img.shields.io/github/issues/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT)](https://github.com/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT/issues) [![HitCount](https://views.whatilearened.today/views/github/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT.svg)](https://github.com/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT)
 ---
 
 
