@@ -11,6 +11,18 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT)](https://github.com/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT/graphs/contributors) [![GitHub issues](https://img.shields.io/github/issues/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT)](https://github.com/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT/issues)
 ---
 
+
+## ABOUT ME
+
+name : ```Nayan Developer```</br>
+age : ```20```</br>
+link : [facebook](https://www.facebook.com/profile.php?id=100000959749712).</br>
+
+## CREDITS
+---
+Original File: [NAYAN](https://github.com/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT/) by ```Nayan Developer```
+
+
 ## Telegram Bot Documentation
 
 ### Step 1: Create a Telegram Bot with BotFather
