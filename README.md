@@ -17,7 +17,7 @@
 name : ```Nayan Developer```</br>
 age : ```20```</br>
 link : [facebook](https://www.facebook.com/profile.php?id=100000959749712).</br>
-
+tutorial: [youtube](https://youtu.be/aqYP28Mog6U)
 ## CREDITS
 ---
 Original File: [NAYAN](https://github.com/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT/) by ```Nayan Developer```
