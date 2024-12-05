@@ -17,6 +17,7 @@
 name : ```Nayan Developer```</br>
 age : ```20```</br>
 link : [facebook](https://www.facebook.com/profile.php?id=100000959749712).</br>
+channel: [TEAM_X4X_CHAT](https://t.me/TEAM_X4X_CHAT) <br>
 tutorial: [youtube](https://youtu.be/aqYP28Mog6U)
 ## CREDITS
 ---
