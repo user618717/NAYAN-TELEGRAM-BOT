@@ -14,7 +14,7 @@ module.exports = {
     const lastReplies = {};
     
     const botId = botInfo.id;
-    let isReplyEnabled = false; 
+    let isReplyEnabled = true; 
     const text = event.body;
     const chatId = event.threadId;
 
