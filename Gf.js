@@ -1,35 +1,32 @@
-const axios = require('axios');
+const axios = require('axios');  // Make sure you import axios for HTTP requests
 
-module.exports = {
-  event: "message", // Specifies the event type (message event)
-  handle: async ({ msg, bot }) => {
-    const chatId = msg.chat.id; // Get the chat ID from the incoming message
-    const text = msg.text;      // Extract the message text
+  module.exports.config = {
+    name: "gf",
+    aliases: ["ck", "tesh"],
+    permission: 0,
+    credits: "Nayan",
+    prefix: 'auto',
+    description: "guide",
+  };
 
-    
-    if (text && text.toLowerCase() === "gf") {
-      try {
-        // Fetch data from the API
-        const imran = await axios.get("https://gf-api-imran.onrender.com/imugf");
-        const data = imran.data.data;
-        const title = data.title;
-        const url = data.url;
-        const authorName = imran.data.author.name;
+  module.exports.start = async ({ event, api, config, match }) => {
+    try {
+      // Fetch data from the API
+      const response = await axios.get("https://gf-api-imran.onrender.com/imugf");
+      const data = response.data.data;
+      const title = data.title;
+      const url = data.url;
+      const authorName = response.data.author.name;
 
-        // Fetch the media stream
-        const media = (
-          await axios.get(url, { responseType: 'stream' })
-        ).data;
+      // Fetch the media stream
+      const media = await axios.get(url, { responseType: 'stream' }).then(res => res.data);
 
-        // Send a message with fetched data
-        await bot.sendMessage(chatId, `Title: ${title}\nAuthor: ${authorName}`);
+      // Send the image with the fetched data
+      await api.sendPhoto(event.threadId, media, { caption: `${title},\n\nAuthor: ${authorName}`});
 
-     
-        await bot.sendPhoto(chatId, media, { caption: `Image by ${authorName}` });
-      } catch (error) {
-        console.error('Error fetching data:', error);
-        await bot.sendMessage(chatId, 'Sorry, there was an error fetching the data.');
-      }
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      // Optionally, send a message if there's an error
+      await api.sendMessage("Sorry, there was an error fetching the image. Please try again later.", event.threadId);
     }
-  },
-};
+  };
