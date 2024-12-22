@@ -1,7 +1,7 @@
 module.exports = {
   config: {
     name: "help",
-    credits: "Nayan",
+    credits: "MR᭄﹅ MAHABUB﹅ メꪜ ",
     aliases: ["menu", "commands"],
     prefix: true,
     permission: 0,
@@ -9,7 +9,7 @@ module.exports = {
     tags: ["Utility"],
   },
   start: async ({ event, api, pluginsLoad }) => {
-    const commandsPerPage = 10;
+    const commandsPerPage = 999;
     const chatId = event.msg.chat.id;
 
     
@@ -46,7 +46,7 @@ module.exports = {
     }
 
     
-    const currentPage = input ? parseInt(input, 10) : 1;
+    const currentPage = input ? parseInt(input, 999) : 1;
 
     
     if (currentPage < 1 || currentPage > totalPages) {
@@ -64,7 +64,7 @@ module.exports = {
       response += `${start + index + 1}. ${cmd.name}\n`;
     });
 
-    response += `\n⚙️ Total Commands: ${totalCommands}\n👤 Author: Nayan`;
+    response += `\n⚙️ Total Commands: ${totalCommands}\n👤 Author: MAHABUB RAHMAN`;
 
     
     await api.sendMessage(chatId, response, { parse_mode: "Markdown" });
