@@ -2,7 +2,7 @@ const Start = new Date();
 
 module.exports = {
   config: {
-    name: "uptime",
+    name: "upt",
     credits: "Nayan",
     aliases: ["up", "runtime"],
     prefix: "auto",
@@ -25,7 +25,7 @@ module.exports = {
     const replyMarkup = {
       reply_markup: {
         inline_keyboard: [
-          [{ text: 'Bot Owner', url: 'https://t.me/MOHAMMADNAYAN' }],
+          [{ text: 'Bot Owner', url: 'https://t.me/Mahabub_x_Rahman' }],
         ],
       },
     };
